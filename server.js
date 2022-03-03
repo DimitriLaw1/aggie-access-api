@@ -9,3 +9,11 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(port);
+
+//fetch("http://localhost:300/user")
+//.then(res => res.json())
+//.then(json => {
+    //json.map(data => {
+    //    console.log(data.name)
+   // })
+//})
